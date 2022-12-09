@@ -50,5 +50,6 @@ Images and icons, accessible alt attributes
 - Added alt attributes to the three images on the page using this template https://www.w3schools.com/tags/att_img_alt.asp
 - Added alt attributes to the three icons on the page using this template https://www.w3schools.com/tags/att_img_alt.asp
 - Removed </img> tag after the third icon img tag and replaced with /> to make the same as the previous two icons for consistency
+- Removed redundant space at the end of img tags
 
 
