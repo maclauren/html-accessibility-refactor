@@ -14,7 +14,7 @@
     * Logical structure
     * Images and icons, accessible alt attributes
     * Heading attributes
-    * Title elements title
+    * Title elements
 
 #### 1. User Story
 AS A marketing agency. I WANT a codebase that follows accessibility standards. SO THAT our own site is optimized for search engines.
@@ -28,28 +28,34 @@ AS A marketing agency. I WANT a codebase that follows accessibility standards. S
 
 #### 3. Method
 
-Semantic HTML elements
+##### Semantic HTML elements
 
-- Changed <div> for navigation to <div id="nav">
-- Changed <div class="header"> to <header class="header">
-- Changed <div class="hero"> to <figure class="hero">
-- Changed <div class="content"> to <section class="content">
-- Changed <div class="benefits"> to <aside class="benefits">
-- Changed <div class="footer"> to <footer class="footer">
-- Changed <div class="search-engine-optimization"> to <div id="search-engine-optimization" class="search-engine-optimization"> so the link would navigate to the correct section
-- Changed <div id="search-engine-optimization" class="search-engine-optimization"> to <nav id="search-engine-optimization" class="search-engine-optimization">
+- Changed div for navigation to nav class="nav"
+- Changed div class="header" to header class="header"
+- Changed div class="hero" to figure class="main-photo" in html and to .main-photo in CSS
+- Changed div class="content" to section class="content"
+- Changed div class="benefits" to aside class="benefits"
+- Changed div class="footer" to footer class="footer"
+- Changed div class="search-engine-optimization" to div id="search-engine-optimization" class="search-engine-optimization"> so the link would navigate to the correct section
+- Changed div id="search-engine-optimization" class="search-engine-optimization" to nav id="search-engine-optimization" class="search-engine-optimization"
 - Did the same for the other two navigation links
-- Changed <div class="benefit-lead"> to <article class="benefit-lead">
+- Changed div class="benefit-lead" to article class="benefit-lead"
 
-Logical structure
+##### Logical structure
 
-???
+Ensured page layout corresponds to html order and structure. E.g. Header is at the top, footer is at the bottom.
 
-Images and icons, accessible alt attributes
+##### Images and icons, accessible alt attributes
 
 - Added alt attributes to the three images on the page using this template https://www.w3schools.com/tags/att_img_alt.asp
 - Added alt attributes to the three icons on the page using this template https://www.w3schools.com/tags/att_img_alt.asp
-- Removed </img> tag after the third icon img tag and replaced with /> to make the same as the previous two icons for consistency
+- Removed /img tag after the third icon img tag and replaced with /> to make the same as the previous two icons for consistency
 - Removed redundant space at the end of img tags
 
+##### Heading attributes
 
+Ensured these fell in sequential order (e.g. h1, h2, h3)
+
+##### Title elements
+
+Ensured title element had a concise, descriptive title
