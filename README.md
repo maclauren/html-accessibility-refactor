@@ -2,9 +2,11 @@
 
 ## Code Refactor README
 
-#### Deployed link: 
+#### Deployed link: https://maclauren.github.io/html-accessibility-refactor/
 
-#### Description:
+#### Screenshot: ![Full sized screenshot of deployed page](assets/images/maclauren.github.io_html-accessibility-refactor_.png)
+
+#### Description: HTML Accessibility Refactor
 
 #### Table of Contents:
 1. User Story
