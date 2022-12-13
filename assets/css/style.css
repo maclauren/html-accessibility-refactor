@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This section relates to styling of the header portion of the web page */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,6 +25,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* This section relates to the styling of the navigation */
 
 .nav {
     padding: 20px;
@@ -54,6 +58,8 @@ p {
     font-size: 16px;
 }
 
+/* This section relates to the styling of the main photo. It is for decoration so does not need alt text */
+
 .main-photo {
     height: 800px;
     width: 100%;
@@ -73,11 +79,15 @@ p {
     margin-left: 25px;
 }
 
+/* This section relates to the styling of the main body of content on the page */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* This section relates to the styling of the Search Engine Optimisation section */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -88,6 +98,8 @@ p {
     color: #ffffff;
 }
 
+/* This section relates to the styling of the Online Reputation Management section */
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,6 +109,8 @@ p {
     color: #ffffff;
 }
 
+/* This section relates to the styling of the Social Media Marketing section */
+
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -105,6 +119,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/* This section relates to the styling of the images in the main body of content */
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -132,6 +148,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* This section relates to the styling of the aside */
 
 .benefits {
     margin-right: 20px;
@@ -191,6 +209,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* This section relates to the styling of the footer */
 
 .footer {
     padding: 30px;
